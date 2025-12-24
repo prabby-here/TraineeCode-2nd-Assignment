@@ -9,7 +9,7 @@ class RoleBuilder:
     """
     @staticmethod
     def get_role_description(role_id):
-        # Support enum or integer role identifiers
+                                                  
         try:
             rid = role_id.value if hasattr(role_id, "value") else int(role_id)
         except (TypeError, ValueError):

@@ -47,7 +47,7 @@ class EmployeeReport:
             role_desc = RoleBuilder.get_role_description(emp.role)
             allowance = SalaryCalculator.get_allowance(emp)
             salary = SalaryCalculator.get_salary(emp)
-            # Print values in tabular format
+                                            
             print(
                 f"{emp.emp_id}\t{emp.name}\t{role_desc}\t\t"
                 f"{emp.basic:.2f}\t{emp.hra:.2f}\t{allowance:.2f}\t{salary:.2f}"

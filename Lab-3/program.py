@@ -10,25 +10,25 @@ class Program:
 
     @staticmethod
     def store_data(emp):
-        # Capture employee information
+                                      
         print("Enter Employee Information:")
         emp.emp_id = input("Employee Id: ").strip()
         emp.emp_name = input("Employee Name: ").strip()
         emp.emp_gender = input("Employee Gender: ").strip()
 
-        # Capture address information
+                                     
         print("Enter Employee Address:")
         address1 = input("Address 1: ").strip()
         address2 = input("Address 2: ").strip()
         city = input("City: ").strip()
         pincode = input("PinCode: ").strip()
 
-        # Store address in the employee object
+                                              
         emp.address = Address(address1, address2, city, pincode)
 
     @staticmethod
     def show_data(emp):
-        # ----------------Display the employee information
+                                                          
         print("\n---------------- Employee Information ----------------")
         print("Employee Id :", emp.emp_id)
         print("Employee Name :", emp.emp_name)

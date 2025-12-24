@@ -6,7 +6,7 @@ from employee import Employee
 class Program:
     @staticmethod
     def main(args):
-        # Employee array to hold the employees' information
+                                                           
         employees = [None] * 4
         emp = None
 
@@ -18,7 +18,7 @@ class Program:
         hra = 0.0
         role = 0
 
-        # Accept employee information from the user
+                                                   
         print("Enter employee information")
 
         for i in range(len(employees)):

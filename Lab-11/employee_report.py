@@ -46,7 +46,7 @@ class EmployeeReport:
             role_desc = emp.get_role_description()
             allowance = emp.get_allowance()
             salary = emp.get_salary()
-            # Print values in tabular format
+                                            
             print(
                 f"{emp.emp_id}\t{emp.name}\t{role_desc}\t\t"
                 f"{emp.basic:.2f}\t{emp.hra:.2f}\t{allowance:.2f}\t{salary:.2f}"

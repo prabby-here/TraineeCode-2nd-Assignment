@@ -6,7 +6,7 @@ from employee import Employee
 class Program:
     @staticmethod
     def main(args):
-        # Employee array to hold the employees' information
+                                                           
         employees = [None] * 4
         emp = None
 
@@ -18,7 +18,7 @@ class Program:
         hra = 0.0
         role = 0
 
-        # Accept employee information from the user
+                                                   
         print("Enter employee information")
 
         for i in range(len(employees)):
@@ -57,14 +57,14 @@ class Program:
             except ValueError:
                 role = 0
 
-            # Create empty Employee and set fields
+                                                  
             emp = Employee()
             emp.emp_id = emp_id
             emp.name = name
             emp.basic = basic
             emp.hra = hra
             emp.allowance_percentage = allowance_percentage
-            # Store role id (as int); RoleBuilder supports enum or int
+                                                                      
             emp.role = role
 
             employees[i] = emp

@@ -12,12 +12,12 @@ class Employee:
         self.basic = float(basic)
         self.hra = float(hra)
         self.allowance_percentage = float(allowance_percentage)
-        # role can be int (id) or Roles enum
+                                            
         try:
-            # if it's numeric-like, store as int
+                                                
             self.role = int(role)
         except (TypeError, ValueError):
-            # otherwise keep as-is (e.g., Enum)
+                                               
             self.role = role
 
     def get_salary(self):
